@@ -33,7 +33,7 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-VERSION = "1.2.2"
+VERSION = "1.2.3"
 REPO = "toninospiderman123/claude-switch"
 BUNDLE_ID = "com.anthropic.claudefordesktop"
 APP_BUNDLE_ID = "io.github.qxlies.claude-switch"
