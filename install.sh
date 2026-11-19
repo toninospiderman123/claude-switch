@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# claude-switch installer: https://github.com/qxlies/claude-switch
-#   curl -fsSL https://raw.githubusercontent.com/qxlies/claude-switch/main/install.sh | bash
+# claude-switch installer: https://github.com/toninospiderman123/claude-switch
+#   curl -fsSL https://raw.githubusercontent.com/toninospiderman123/claude-switch/main/install.sh | bash
 set -euo pipefail
 
-REPO="qxlies/claude-switch"
+REPO="toninospiderman123/claude-switch"
 BRANCH="${CLAUDE_SWITCH_BRANCH:-main}"
 RAW="https://raw.githubusercontent.com/${REPO}/${BRANCH}"
 

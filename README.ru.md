@@ -74,7 +74,7 @@ $ claude-switch use work
 Одной командой в Терминале:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/qxlies/claude-switch/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/toninospiderman123/claude-switch/main/install.sh | bash
 ```
 
 Установщик:
@@ -86,7 +86,7 @@ curl -fsSL https://raw.githubusercontent.com/qxlies/claude-switch/main/install.s
 <summary>Установка вручную, из клона репозитория</summary>
 
 ```bash
-git clone https://github.com/qxlies/claude-switch.git
+git clone https://github.com/toninospiderman123/claude-switch.git
 cd claude-switch
 CLAUDE_SWITCH_SRC=./claude-switch ./install.sh
 ```
@@ -241,7 +241,7 @@ switch.log            лог фоновых операций
 Нужны Xcode Command Line Tools (`xcode-select --install`).
 
 ```bash
-git clone https://github.com/qxlies/claude-switch.git
+git clone https://github.com/toninospiderman123/claude-switch.git
 cd claude-switch
 ./app/build.sh --zip                       # → app/build/Claude Switch.app и ClaudeSwitch.zip
 CLAUDE_SWITCH_SRC=./claude-switch CLAUDE_SWITCH_APP_ZIP=app/build/ClaudeSwitch.zip ./install.sh

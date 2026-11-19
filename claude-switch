@@ -38,8 +38,8 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-VERSION = "1.2.0"
-REPO = "qxlies/claude-switch"
+VERSION = "1.2.1"
+REPO = "toninospiderman123/claude-switch"
 BUNDLE_ID = "com.anthropic.claudefordesktop"
 APP_BUNDLE_ID = "io.github.qxlies.claude-switch"
 APP_DIR = Path(os.environ.get("CLAUDE_SWITCH_APPDIR", Path.home() / "Library/Application Support/Claude"))

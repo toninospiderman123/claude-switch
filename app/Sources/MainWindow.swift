@@ -376,7 +376,7 @@ struct SettingsPane: View {
                             Text("Unofficial. Not affiliated with Anthropic.").font(.system(size: 11)).foregroundStyle(.secondary)
                         }
                         Spacer()
-                        Button("GitHub") { NSWorkspace.shared.open(URL(string: "https://github.com/qxlies/claude-switch")!) }
+                        Button("GitHub") { NSWorkspace.shared.open(URL(string: "https://github.com/toninospiderman123/claude-switch")!) }
                             .buttonStyle(GlassButtonStyle())
                     }
                 }

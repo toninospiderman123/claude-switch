@@ -72,7 +72,7 @@ $ claude-switch use work
 Run this in Terminal:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/qxlies/claude-switch/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/toninospiderman123/claude-switch/main/install.sh | bash
 ```
 
 The installer:
@@ -84,7 +84,7 @@ The installer:
 <summary>Manual install from a clone</summary>
 
 ```bash
-git clone https://github.com/qxlies/claude-switch.git
+git clone https://github.com/toninospiderman123/claude-switch.git
 cd claude-switch
 CLAUDE_SWITCH_SRC=./claude-switch ./install.sh
 ```
@@ -239,7 +239,7 @@ switch.log            log of background operations
 You need the Xcode Command Line Tools (`xcode-select --install`).
 
 ```bash
-git clone https://github.com/qxlies/claude-switch.git
+git clone https://github.com/toninospiderman123/claude-switch.git
 cd claude-switch
 ./app/build.sh --zip                       # → app/build/Claude Switch.app and ClaudeSwitch.zip
 CLAUDE_SWITCH_SRC=./claude-switch CLAUDE_SWITCH_APP_ZIP=app/build/ClaudeSwitch.zip ./install.sh
